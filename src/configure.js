@@ -316,7 +316,7 @@ function buildClientsSlider(clients, containerWidth) {
 	clients.forEach((client) => {
 		const clientSlide = document.createElement('div');
 		clientSlide.classList.add('slide');
-		clientSlide.innerHTML = `<img src="${client.logo}" height="150" width="150" loading="lazy" alt="${client.name}" /><span class="client-name">${client.name}</span>`;
+		clientSlide.innerHTML = `<img src="${client.logo}" class="" height="150" width="150" loading="lazy" alt="${client.name}" /><span class="client-name">${client.name}</span>`;
 		clientSlide.style.minWidth = `${minWidth}px`;
 		clientsSlider.appendChild(clientSlide);
 	});

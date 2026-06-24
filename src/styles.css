@@ -175,6 +175,7 @@ body {
 }
 
 .hero h1 .ital {
+	font-size: clamp(2.4rem, 3vw, 3.4rem);
 	font-family: var(--font-italic);
 	font-weight: 400;
 	font-style: italic;
@@ -239,6 +240,10 @@ body {
 		font-size: 1rem;
 	}
 
+	#bio-container {
+		padding: 1rem 2rem !important;
+	}
+
 	#years-of-experience {
 		font-size: 1.4rem;
 	}
@@ -249,6 +254,7 @@ body {
 
 	.journey-item-container {
 		width: 90% !important;
+		padding: 2rem 2.5rem !important;
 	}
 
 	#journey-section-title {
@@ -528,6 +534,11 @@ body {
 
 	.role-timeline::before {
 		left: 6px;
+	}
+
+	#detail-content {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
 	}
 }
 
@@ -1528,7 +1539,7 @@ input.check-toggle-round-flat:checked + label:after {
 	border-color: var(--line);
 }
 
-#clients .section-title {
+section:not(#resume) .section-title {
 	margin-left: 20px;
 	margin-right: 20px;
 }

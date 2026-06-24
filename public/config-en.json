@@ -126,15 +126,6 @@
 	"projects": [
 		{
 			"id": 1,
-			"name": "Shoniz Flagship Advertising Campaign",
-			"image": "./public/portfolio/shoniz.jpg",
-			"position": "44%",
-			"role": "Executive Director & Project Director",
-			"description": "Directed and managed one of the flagship promotional campaigns of Shoniz, overseeing production planning, execution, and media operations.",
-			"media": ["(عکس‌ها)", "(ویدیوها)"]
-		},
-		{
-			"id": 2,
 			"name": "ECO Tourism Symposium",
 			"image": "./public/portfolio/symposium.jpg",
 			"position": "40%",
@@ -155,7 +146,7 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"name": "78th World Men's Fitness & Bodybuilding Championships",
 			"image": "./public/portfolio/fitness.jpg",
 			"position": "52%",
@@ -164,7 +155,37 @@
 			"media": ["(عکس‌ها)", "(ویدیوها)"]
 		},
 		{
+			"id": 3,
+			"name": "Kish Marathon Series",
+			"image": "./public/portfolio/symposium.jpg",
+			"position": "40%",
+			"role": "Project Director | Event Operations Director | Media Director ",
+			"description": "Kish Marathon, Half Marathon, Mini Marathon",
+			"year": 2025,
+			"location": "Kish Island, Iran",
+			"client": "Gerdoun Tourism Group – Kish Free Zone Organization",
+			"detail": "### Project Overview\n\nThe ECO Tourism Symposium 2025 was an international tourism event held on Kish Island with the participation of member countries of the Economic Cooperation Organization (ECO). The event aimed to strengthen regional tourism cooperation and promote cross-border collaboration within the ECO member states.\n\nThis high-level event brought together official delegates, industry leaders, and key stakeholders from multiple countries in a highly sensitive and strategically important setting.\n\n---\n\n### Challenges\n\nThis project was considered a high-sensitivity international event due to:\n\n- Presence of high-ranking official delegates from multiple countries\n- Significant reputational importance for the host country\n- Zero-margin-for-error execution environment\n- Simultaneous coordination of security, protocol, media, and operations\n- High-pressure real-time decision making during execution\n\n---\n\n### Responsibilities\n\n- Full operational design and execution management of the event\n- Leadership of a 10-member multidisciplinary team\n- Coordination between protocol, security, and production units\n- On-site event flow supervision and real-time control\n- Media operations management (news coverage, content production, distribution)\n- Quality control of all visual and media outputs prior to release\n\n---\n\n### Execution Team\n\nA 10-person specialized team including:\n\n- Content production unit\n- Video production & filming crew\n- Real-time editing team (rapid post-production)\n- News and media distribution team\n- On-ground coordination and event operations staff\n\n---\n\n### Key Achievements\n\n- Successful execution of a high-level international tourism symposium\n- Full real-time media coverage with simultaneous production and publishing\n- Seamless coordination of multiple operational layers under pressure\n- Continuous content delivery during the event lifecycle\n- Zero critical operational or security failures during execution\n\n---\n\n### Key Highlight\n\nDue to the presence of high-level international delegates and official representatives, the project required extremely strict operational control and risk management.\n\nIn parallel, the media team was responsible for:\n\n- Real-time news production\n- Rapid content editing and validation\n- Quality assurance before publication\n- Controlled and strategic media distribution\n\nThis significantly increased the complexity and operational intensity of the project.",
+			"media": [
+				"./public/portfolio/2/7.webp",
+				"./public/portfolio/2/11.webp",
+				"./public/portfolio/2/12.webp",
+				"./public/portfolio/2/13.webp",
+				"./public/portfolio/2/16.webp",
+				"./public/portfolio/2/23.webp",
+				"./public/portfolio/2/25.webp"
+			]
+		},
+		{
 			"id": 4,
+			"name": "Shoniz Flagship Advertising Campaign",
+			"image": "./public/portfolio/shoniz.jpg",
+			"position": "44%",
+			"role": "Executive Director & Project Director",
+			"description": "Directed and managed one of the flagship promotional campaigns of Shoniz, overseeing production planning, execution, and media operations.",
+			"media": ["(عکس‌ها)", "(ویدیوها)"]
+		},
+		{
+			"id": 5,
 			"name": "Kish Marathon Series",
 			"image": "./public/portfolio/marathon.jpg",
 			"position": "31%",
@@ -173,7 +194,7 @@
 			"media": ["(عکس‌ها)", "(ویدیوها)"]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"name": "AFC Related Projects",
 			"image": "./public/portfolio/afc.jpg",
 			"position": "38%",
@@ -182,7 +203,7 @@
 			"media": ["(عکس‌ها)", "(ویدیوها)"]
 		},
 		{
-			"id": 6,
+			"id": 7,
 			"name": "Maritime Economy Conference",
 			"image": "./public/portfolio/maritime.jpg",
 			"position": "15%",
@@ -191,7 +212,7 @@
 			"media": ["(عکس‌ها)", "(ویدیوها)"]
 		},
 		{
-			"id": 7,
+			"id": 8,
 			"name": "Iran International Exhibitions",
 			"image": "",
 			"position": "5%",
@@ -201,21 +222,32 @@
 		}
 	],
 	"clients": [
+		{ "name": "Mica Mall", "logo": "./public/logos/mica-mall.jpg" },
+		{ "name": "Dariush Hotel", "logo": "./public/logos/dariush.jpg" },
+		{ "name": "Korosh Hotel", "logo": "./public/logos/kourosh.png" },
+		{ "name": "Qeshm Hoteliers Association", "logo": "./public/logos/qeshm-hoteliers.jpg" },
+		{ "name": "Gardoon Tourism Group", "logo": "./public/logos/gardoon.jpg" },
+		{ "name": "Yekta Protocol Services", "logo": "./public/logos/" },
+		{ "name": "Kish Free Zone Organization", "logo": "./public/logos/kish.jpg" },
 		{ "name": "BluBank", "logo": "./public/logos/blubank.png" },
 		{ "name": "Mellat Bank", "logo": "./public/logos/mellat-bank.jpg" },
 		{ "name": "Saderat Bank", "logo": "./public/logos/saderat.jpg" },
 		{ "name": "Shahr Bank", "logo": "./public/logos/shahr-bank.jpg" },
 		{ "name": "Cinnagen", "logo": "./public/logos/cinnagen.jpg" },
 		{ "name": "Elite Daru", "logo": "./public/logos/elite-daru.jpg" },
-		{ "name": "Behestan Pakhsh", "logo": "./public/logos/blubank.png" },
-		{ "name": "Daya Darou", "logo": "./public/logos/blubank.png" },
-		{ "name": "Razi Distribution", "logo": "./public/logos/blubank.png" },
-		{ "name": "AFC", "logo": "./public/logos/blubank.png" },
-		{ "name": "Free Zone Organization", "logo": "./public/logos/blubank.png" },
-		{ "name": "Qeshm Hoteliers Association", "logo": "./public/logos/qeshm-hoteliers.jpg" },
-		{ "name": "Shoniz", "logo": "./public/logos/blubank.png" },
-		{ "name": "Asfalt Toos Qeshm", "logo": "./public/logos/blubank.png" },
-		{ "name": "Khwarizmi Co.", "logo": "./public/logos/blubank.png" }
+		{ "name": "Behestan Distribution", "logo": "./public/logos/behestan.jpg" },
+		{ "name": "Razi Distribution", "logo": "./public/logos/razi.jpg" },
+		{ "name": "Daya Darou", "logo": "./public/logos/daya-darou.jpg" },
+		{ "name": "DarmanYab", "logo": "./public/logos/darmanyab.jpg" },
+		{ "name": "Shoniz", "logo": "./public/logos/shoniz.jpg" },
+		{ "name": "Kalleh", "logo": "./public/logos/kalleh.jpg" },
+		{ "name": "Sina Food Industries", "logo": "./public/logos/sina.jpg" },
+		{ "name": "Yazd Foulad", "logo": "./public/logos/yazd-foulad.jpg" },
+		{ "name": "Asfalt Tous Palayesh Qeshm", "logo": "./public/logos/asfalt-tous.jpg" },
+		{ "name": "Kharazmi Company", "logo": "./public/logos/" },
+		{ "name": "Asian Football Confederation", "logo": "./public/logos/afc.jpg" },
+		{ "name": "Football Board of Kish", "logo": "./public/logos/kish-football.jpg" },
+		{ "name": "Economic Cooperation Organization", "logo": "./public/logos/eco.jpg" }
 	],
 	"achievements": [
 		"Top Student in Hospitality Management",

@@ -86,10 +86,9 @@ function highlightActiveSection() {
 			const sectionTop = section.offsetTop;
 			const sectionHeight = section.offsetHeight;
 			if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-				currentSection =
-					section.getAttribute('data-scrollmagic-pin-spacer') == ''
-						? 'journey'
-						: section.getAttribute('id');
+				currentSection = section.hasAttribute('data-scrollmagic-pin-spacer')
+					? 'journey'
+					: section.getAttribute('id');
 			}
 		});
 	}
