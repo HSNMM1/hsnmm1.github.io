@@ -35,7 +35,7 @@ function buildCompanyLogo(experience) {
 	return logoWrap;
 }
 
-function buildRoleItem(role) {
+function buildRoleItem(role, organizationName) {
 	const item = document.createElement('li');
 	item.classList.add('role-item');
 
@@ -101,25 +101,24 @@ function buildRoleItem(role) {
 	if (role.media) {
 		const media = document.createElement('div');
 		media.classList.add('role-media');
+		const carouselId = `carousel-${slugify(role.title)}`;
 		media.innerHTML = `
-		<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-			<div class="carousel-inner">
-				${role.media.map(
-					(mediaUrl, index) => `
-				<div class="carousel-item${index === 0 ? ' active' : ''}">
-					<img src="${mediaUrl}" loading="lazy" class="d-block w-100" alt="${role.name} Media">
-				</div>`,
-				)}
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>`;
+				${role.media
+					.map(
+						(mediaUrl, index) => `
+						<a class="role-media-link" data-bs-toggle="modal" data-bs-target="#experience-media-modal" data-title="${organizationName}" data-media-src="${mediaUrl}">
+							<div class="role-media-container">
+								<img src="${mediaUrl}" loading="lazy" class="role-image" alt="Photo of the role ${role.title} in ${organizationName}">
+								<small class="role-media-footer">Certificate
+									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+										<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+										<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+									</svg>
+								</small>
+							</div>
+						</a>`,
+					)
+					.join('')}`;
 		item.appendChild(media);
 	}
 
@@ -156,7 +155,7 @@ function buildCompanyCard(experience) {
 	const timeline = document.createElement('ol');
 	timeline.classList.add('role-timeline');
 	(experience.roles || []).forEach((role) => {
-		timeline.appendChild(buildRoleItem(role));
+		timeline.appendChild(buildRoleItem(role, experience.organization));
 	});
 	if ((experience.roles || []).length <= 1) {
 		timeline.classList.add('role-timeline-single');

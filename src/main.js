@@ -43,7 +43,7 @@ function wateredDownFadeOutAnimation(section) {
 }
 
 // Apply the animation to each section
-['bio', 'resume'].forEach(function (section) {
+['bio', 'resume', 'services'].forEach(function (section) {
 	fadeOutAnimation(section);
 });
 
@@ -328,3 +328,20 @@ document.addEventListener('DOMContentLoaded', () => {
 if (window.location.hash.length > 0) {
 	history.pushState({}, '', '/');
 }
+
+// Experience section media modal
+document.addEventListener('DOMContentLoaded', () => {
+	const experienceModal = document.getElementById('experience-media-modal');
+	if (experienceModal) {
+		experienceModal.addEventListener('show.bs.modal', (event) => {
+			// Button that triggered the modal
+			const btn = event.relatedTarget;
+			// Extract info from data attributes
+			const src = btn.getAttribute('data-media-src');
+			const title = btn.getAttribute('data-title');
+			// Update the modal's content.
+			experienceModal.querySelector('.modal-title').textContent = `${title} - Gallery`;
+			experienceModal.querySelector('.modal-body img').src = src;
+		});
+	}
+});
