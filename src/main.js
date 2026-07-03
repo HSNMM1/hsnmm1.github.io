@@ -65,7 +65,8 @@ const navLinks = document.querySelectorAll('.side-nav-link');
 // Active section highlighting for side navigation
 function highlightActiveSection() {
 	const sections = document.querySelectorAll(
-		'section[id]:not(#journey), [data-scrollmagic-pin-spacer]',
+		'section[id]',
+		// 'section[id]:not(#journey), [data-scrollmagic-pin-spacer]',
 	);
 	let currentSection = '';
 	const scrollPosition = window.scrollY + 100; // Offset for navbar
@@ -86,9 +87,8 @@ function highlightActiveSection() {
 			const sectionTop = section.offsetTop;
 			const sectionHeight = section.offsetHeight;
 			if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-				currentSection = section.hasAttribute('data-scrollmagic-pin-spacer')
-					? 'journey'
-					: section.getAttribute('id');
+				currentSection = section.getAttribute('id');
+				// currentSection = section.hasAttribute('data-scrollmagic-pin-spacer') ? 'journey' : section.getAttribute('id');
 			}
 		});
 	}
@@ -134,9 +134,10 @@ function initStaggerAnimations() {
 					entry.target.classList.add('animate-in');
 
 					// Stagger the list items within this experience item
-					const listItems = entry.target.querySelectorAll('.responsibilities li');
+					const listItems = entry.target.querySelectorAll('.responsibilities li, .journey-li');
+					const speed = entry.target.classList.contains('journey-item') ? 0.1 : 0.2;
 					listItems.forEach((item, index) => {
-						item.style.animationDelay = `${0.2 * index}s`;
+						item.style.animationDelay = `${speed * index}s`;
 						item.classList.add('stagger-in');
 					});
 
@@ -175,7 +176,7 @@ function initStaggerAnimations() {
 // }
 
 // Journey section cards animation
-function animateJourneyCards() {
+/*function animateJourneyCards() {
 	const section = document.getElementById('journey');
 	const items = section.querySelectorAll('.journey-item');
 
@@ -240,13 +241,13 @@ function animateJourneyCards() {
 		.setPin(section)
 		.setTween(tl)
 		.addTo(controller);
-}
+}*/
 
 async function renderConfig(lang) {
 	// Wait for config.js to populate the experience section
 	await loadConfig(lang);
 	initStaggerAnimations();
-	animateJourneyCards();
+	// animateJourneyCards();
 	// animateJourneyLine();
 }
 
@@ -290,10 +291,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				e.preventDefault();
 
 				const targetId = href.substring(1);
-				const targetSection =
-					targetId === 'journey'
-						? document.querySelector('div[data-scrollmagic-pin-spacer]')
-						: document.getElementById(targetId);
+				const targetSection = document.getElementById(targetId);
+				// const targetSection =
+				// 	targetId === 'journey'
+				// 		? document.querySelector('div[data-scrollmagic-pin-spacer]')
+				// 		: document.getElementById(targetId);
 
 				if (targetSection) {
 					const targetPosition = targetSection.offsetTop - navbarHeight;

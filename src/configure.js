@@ -323,6 +323,61 @@ function buildClientsSlider(clients, containerWidth) {
 	return clientsSlider;
 }
 
+function buildJourneyItem(item) {
+	const itemEl = document.createElement('div');
+	itemEl.classList.add('journey-item');
+	itemEl.role = 'listitem';
+	const container = document.createElement('div');
+	container.classList.add(
+		'journey-item-container',
+		'border',
+		'border-1',
+		// 'rounded-top-0',
+		'rounded-4',
+	);
+
+	const headerEl = document.createElement('div');
+	headerEl.classList.add('journey-header');
+	headerEl.textContent = `Projects in ${item.date}`;
+	container.appendChild(headerEl);
+
+	const contentEl = document.createElement('div');
+	contentEl.classList.add(
+		'journey-content',
+		// 'py-3',
+		// 'px-4',
+		// 'border',
+		// 'border-1',
+		// 'rounded-4',
+	);
+
+	// const title = document.createElement('h3');
+	// title.classList.add('journey-title');
+	// title.textContent = item.title;
+	// contentEl.appendChild(title);
+
+	const desUl = document.createElement('ul');
+	desUl.classList.add('journey-ul', 'm-0');
+	item.content.forEach((line) => {
+		const li = document.createElement('li');
+		li.classList.add('journey-li');
+		li.textContent = line;
+		desUl.appendChild(li);
+	});
+	contentEl.appendChild(desUl);
+	container.appendChild(contentEl);
+
+	// const imgEl = document.createElement('img');
+	// imgEl.classList.add('journey-img');
+	// imgEl.height = '100px';
+	// imgEl.src = item.img;
+	// container.appendChild(imgEl);
+
+	itemEl.appendChild(container);
+
+	return itemEl;
+}
+
 export async function loadConfig(lang) {
 	if (document.readyState === 'loading') {
 		await new Promise((resolve) =>
@@ -480,56 +535,7 @@ export async function loadConfig(lang) {
 
 	const journeySection = document.getElementById('journey-list');
 	data.journey.forEach((item) => {
-		const itemEl = document.createElement('div');
-		itemEl.classList.add('journey-item');
-		itemEl.role = 'listitem';
-		const container = document.createElement('div');
-		container.classList.add(
-			'journey-item-container',
-			'border',
-			'border-1',
-			'rounded-top-0',
-			'rounded-4',
-		);
-
-		const contentEl = document.createElement('div');
-		contentEl.classList.add(
-			'journey-content',
-			// 'py-3',
-			// 'px-4',
-			// 'border',
-			// 'border-1',
-			// 'rounded-4',
-		);
-
-		const title = document.createElement('h3');
-		title.classList.add('journey-title');
-		title.textContent = item.title;
-		contentEl.appendChild(title);
-
-		const desUl = document.createElement('ul');
-		desUl.classList.add('journey-ul', 'responsibilities', 'm-0');
-		item.content.forEach((line) => {
-			const li = document.createElement('li');
-			li.classList.add('journey-li');
-			li.textContent = line;
-			desUl.appendChild(li);
-		});
-		contentEl.appendChild(desUl);
-		container.appendChild(contentEl);
-
-		// const imgEl = document.createElement('img');
-		// imgEl.classList.add('journey-img');
-		// imgEl.height = '100px';
-		// imgEl.src = item.img;
-		// container.appendChild(imgEl);
-		const dateEl = document.createElement('span');
-		dateEl.classList.add('journey-date');
-		dateEl.textContent = item.date;
-		container.appendChild(dateEl);
-
-		itemEl.appendChild(container);
-		journeySection.appendChild(itemEl);
+		journeySection.appendChild(buildJourneyItem(item));
 	});
 
 	const clientsSlider = document.getElementById('clients-slider');

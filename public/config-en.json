@@ -44,36 +44,16 @@
 	],
 	"skills": [
 		"Event Management",
-		"Event Planning",
-		"Event Operations",
-		"Event Logistics",
-		"VIP Management",
 		"Protocol Management",
 		"Hospitality Operations",
-		"Conference Management",
-		"Exhibition Management",
-		"Sports Event Management",
-		"Media Management",
-		"Media Strategy",
 		"Media Production",
-		"Content Planning",
 		"Creative Direction",
-		"Live Broadcasting",
 		"Livestream Operations",
-		"Event Coverage",
-		"Leadership",
-		"Team Management",
 		"Project Management",
 		"Vendor Coordination",
-		"Stakeholder Management",
-		"Budget Coordination",
-		"Client Relations",
-		"Technical Knowledge",
 		"Photography",
 		"Videography",
-		"Camera Operations",
-		"Drone Operations",
-		"Live Streaming Systems"
+		"Drone Operations"
 	],
 	"experiences": [
 		{
@@ -129,7 +109,7 @@
 			"name": "ECO Tourism Symposium",
 			"image": "./public/portfolio/symposium.jpg",
 			"position": "40%",
-			"role": "Project Director | Event Operations Director | Media Director ",
+			"role": "Project Director | Event Operations Director | Media Director",
 			"description": "Directed and managed the Tourism Symposium of ECO Member Countries, coordinating media, operations, protocol, and event execution.",
 			"year": 2025,
 			"location": "Kish Island, Iran",
@@ -147,19 +127,31 @@
 		},
 		{
 			"id": 2,
-			"name": "78th World Men's Fitness & Bodybuilding Championships",
+			"name": "First Kish International Fitness & Bodybuilding Congress & 78th World Men's Fitness & Bodybuilding Championship",
 			"image": "./public/portfolio/fitness.jpg",
 			"position": "52%",
-			"role": "Head of Media",
+			"role": "Media Director | Event Operations Manager",
 			"description": "Led media coverage, content production, and event broadcasting operations for an international sports championship.",
-			"media": ["(عکس‌ها)", "(ویدیوها)"]
+			"year": 2024,
+			"location": "Kish Island, Iran",
+			"client": "###",
+			"detail": "# Project Overview\nThe First Kish International Fitness & Bodybuilding Congress, held concurrently with the 78th World Men's Fitness & Bodybuilding Championship, was one of the largest international sports events hosted on Kish Island. The event brought together athletes, coaches, judges, industry experts, and federation representatives from multiple countries. Delivering a project of this scale required seamless coordination between operations, media, content production, and event management teams while maintaining international standards throughout the event.\n\n---\n\n## Challenges\n- Managing international delegations, athletes, and officials\n- Strict competition schedules and time-sensitive operations\n- Comprehensive coverage of both the congress and championship activities\n- Simultaneous management of multiple operational zones, including competition venues, backstage areas, congress sessions, and media centers\n- High-volume content production and rapid media delivery\n- Maintaining consistency and quality across all media outputs during the event\n\n---\n\n## Responsibilities\n- Leading the event's media operations\n- Managing content production teams\n- Planning and supervising visual coverage of both the congress and championship\n- Coordinating between media teams and event operations departments\n- Overseeing post-production workflows and content distribution\n- Ensuring quality control across all visual and media assets\n- Managing event communications and news coverage\n\n---\n\n## Execution Team\n- Content Production Team\n- Video Production Crew\n- Editing & Post-Production Team\n- News & Media Coverage Team\n- Event Coordination Staff\n**Team Size:** 10–15 Professionals\n\n---\n\n## Key Achievements\n- Delivered full media coverage for one of the country's most significant international sports events\n- Produced and distributed continuous news and promotional content throughout the event\n- Successfully managed simultaneous media operations for both the congress and world championship\n- Delivered professional-grade media assets aligned with international event standards\n- Executed the project without disruptions to media workflows or event coverage\n\n---\n\n## Key Highlight\nThe project uniquely combined an international professional congress with a world championship event, creating a highly dynamic and multi-layered operational environment. Successfully managing both platforms simultaneously required precise planning, resource allocation, and real-time coordination across multiple teams and venues.",
+			"media": [
+				"./public/portfolio/2/7.webp",
+				"./public/portfolio/2/11.webp",
+				"./public/portfolio/2/12.webp",
+				"./public/portfolio/2/13.webp",
+				"./public/portfolio/2/16.webp",
+				"./public/portfolio/2/23.webp",
+				"./public/portfolio/2/25.webp"
+			]
 		},
 		{
 			"id": 3,
 			"name": "Kish Marathon Series",
 			"image": "./public/portfolio/symposium.jpg",
 			"position": "40%",
-			"role": "Project Director | Event Operations Director | Media Director ",
+			"role": "Project Director | Event Operations Director | Media Director",
 			"description": "Kish Marathon, Half Marathon, Mini Marathon",
 			"year": 2025,
 			"location": "Kish Island, Iran",
@@ -224,11 +216,27 @@
 	"clients": [
 		{ "name": "Mica Mall", "logo": "./public/logos/mica-mall.jpg" },
 		{ "name": "Dariush Hotel", "logo": "./public/logos/dariush.jpg" },
-		{ "name": "Korosh Hotel", "logo": "./public/logos/kourosh.png" },
+		{ "name": "Korosh Hotel", "logo": "./public/logos/kourosh.jpg" },
 		{ "name": "Qeshm Hoteliers Association", "logo": "./public/logos/qeshm-hoteliers.jpg" },
 		{ "name": "Gardoon Tourism Group", "logo": "./public/logos/gardoon.jpg" },
 		{ "name": "Yekta Protocol Services", "logo": "./public/logos/" },
+		{ "name": "3rd Millennium Tourism", "logo": "./public/logos/hezare-sevom.jpg" },
 		{ "name": "Kish Free Zone Organization", "logo": "./public/logos/kish.jpg" },
+		{ "name": "Damavand Investment Bank", "logo": "./public/logos/damavand.jpg" },
+		{ "name": "Kish Merchants Association", "logo": "./public/logos/bazarian.jpg" },
+		{ "name": "Kish Consultants Group", "logo": "./public/logos/kcg.jpg" },
+		{ "name": "###", "logo": "./public/logos/ni.jpg" },
+		{ "name": "Dorfam Industrial Group", "logo": "./public/logos/dorfam.jpg" },
+		{ "name": "MicaMall Customer Club", "logo": "./public/logos/mica-club.jpg" },
+		{ "name": "Bani Sport Services", "logo": "./public/logos/bani.jpg" },
+		{ "name": "Mehraz Facade", "logo": "./public/logos/mehraz.jpg" },
+		{ "name": "MicaRad", "logo": "./public/logos/micarad.jpg" },
+		{ "name": "Asre Jadid Kish", "logo": "./public/logos/asrejadid.jpg" },
+		{ "name": "Kish Events Center", "logo": "./public/logos/kish-events.jpg" },
+		{ "name": "Ghadir Financial Group", "logo": "./public/logos/ghadir.jpg" },
+		{ "name": "Alast", "logo": "./public/logos/" },
+		{ "name": "Pazan", "logo": "./public/logos/pazan.jpg" },
+		{ "name": "TEDx Kish", "logo": "./public/logos/tedx.jpg" },
 		{ "name": "BluBank", "logo": "./public/logos/blubank.png" },
 		{ "name": "Mellat Bank", "logo": "./public/logos/mellat-bank.jpg" },
 		{ "name": "Saderat Bank", "logo": "./public/logos/saderat.jpg" },
@@ -242,8 +250,13 @@
 		{ "name": "Shoniz", "logo": "./public/logos/shoniz.jpg" },
 		{ "name": "Kalleh", "logo": "./public/logos/kalleh.jpg" },
 		{ "name": "Sina Food Industries", "logo": "./public/logos/sina.jpg" },
+		{ "name": "Pars Pigment and Catalyst", "logo": "./public/logos/PP&C.jpg" },
 		{ "name": "Yazd Foulad", "logo": "./public/logos/yazd-foulad.jpg" },
 		{ "name": "Asfalt Tous Palayesh Qeshm", "logo": "./public/logos/asfalt-tous.jpg" },
+		{
+			"name": "Persian Gulf Petrochemical Industries",
+			"logo": "./public/logos/petrochemical.jpg"
+		},
 		{ "name": "Kharazmi Company", "logo": "./public/logos/" },
 		{ "name": "Asian Football Confederation", "logo": "./public/logos/afc.jpg" },
 		{ "name": "Football Board of Kish", "logo": "./public/logos/kish-football.jpg" },
@@ -258,80 +271,113 @@
 	],
 	"journey": [
 		{
-			"title": "Introduction to Media and Broadcasting",
 			"content": [
-				"Due to my family's professional activities, I was introduced to the world of image production, broadcasting, and media projects from an early age."
+				"Building the first specialized workshop of the University of Applied Sciences",
+				"Press conference of the Comprehensive University of Applied Sciences",
+				"Exhibition of Stock Exchange, Banking and Insurance",
+				"Conference of Kish University Managers",
+				"Signing of a Memorandum of Understanding between Kish University of Applied Sciences and Pars Mika Kish Company"
 			],
-			"date": "2013"
-		},
-		{
-			"title": "Obtaining professional media certificates (2014)",
-			"content": ["Professional photography", "Professional videography"],
-			"date": "2014"
-		},
-		{
-			"title": "Entering the media job market",
-			"content": ["Advertising projects", "Hotel branding", "Content production"],
-			"date": "2016"
-		},
-		{
-			"title": "Studying in hospitality and ceremonies",
-			"content": [
-				"Top student in the field",
-				"Activities in the field of ceremonies and guest management"
-			],
-			"date": "2017"
-		},
-		{
-			"title": "Unique ceremonies (2019)",
-			"content": [
-				"Top member of the group",
-				"Activities in the field of ceremonies and performances"
-			],
-			"date": "2019"
-		},
-		{
-			"title": "Practical hospitality",
-			"content": ["Kourosh Hotel (Front Office)", "Dariush Hotel (Front Office / F&B)"],
-			"date": "2019"
-		},
-		{
-			"title": "Qeshm Hoteliers Association",
-			"content": ["Ceremony Manager", "Event management and implementation"],
 			"date": "2020"
 		},
 		{
-			"title": "Management roles in ceremonies, marketing and media",
 			"content": [
-				"Ceremony Manager and Public Relations Expert, MicaMall",
-				"MicaRad (Public Relations and Marketing Manager)",
-				"Gordoon Tourism Group (Media and Planning Manager)",
-				"New Age of Kish (Content Production Manager)"
+				"Cooperation with the 5th PMU Beauty Festival",
+				"Mika Mall Cycling Competition",
+				"Kish Inox Exhibition",
+				"Making a promotional teaser for Zeylan",
+				"Annual Razi Broadcasting Conference",
+				"Shahram Nazeri Concert",
+				"AFC Football Coaching Course",
+				"Content Production for the Women's Affairs Department",
+				"International Exhibition of Iranian Culture",
+				"International Summit of Businessmen and Heads of State",
+				"International Oil, Gas and Petrochemical Exhibition",
+				"Behestan Broadcasting Conference"
 			],
 			"date": "2021"
 		},
 		{
-			"title": "Establishment of H Studio",
-			"content": ["Formation of a team of 6 to 20 people", "Entry into large event projects"],
-			"date": "2023"
-		},
-		{
-			"title": "Development of H Studio",
-			"content": ["More than 500 projects", "More than 50 national and international brands"],
-			"date": "2023"
-		},
-		{
-			"title": "National and international projects",
 			"content": [
-				"ECO Symposium",
-				"World Bodybuilding Championship",
-				"Kish Marathon Series",
-				"Mikamall Events",
-				"Shoniz Campaign",
-				"Exhibitions Portfolio",
-				"More than 50 national and international brands"
+				"Media Officer for University Public Sports",
+				"Maritime and Shipping Industries Exhibition",
+				"Media Officer for Allameh Tabatabaei University",
+				"Petrochemical Exhibition",
+				"National Congress of Hemmat Paydar Management Mandegar",
+				"Elite Drug Distribution Company",
+				"G-TEK Advertising Project",
+				"Steel Symposium",
+				"End credits of Kish and Life TV program",
+				"Director of Ceremonies of Qeshm Hoteliers Association at the National Society Directors' Forum"
 			],
-			"date": "2023 - 2026"
+			"date": "2022"
+		},
+		{
+			"content": [
+				"Content production for Mika Rad Mikamall Company",
+				"Design of taxi room and bathroom photos of Mikamall",
+				"Sama Mikamall Dance Program",
+				"Syria Mikamall Concert (Music Festival)",
+				"Content production of Mikamall Children's Theater",
+				"Steel Symposium",
+				"Content production of the Ice Rink Construction Process of Mikamall",
+				"Ardeshir Rostami Mikamall Book Signing Program",
+				"Hido Hedayati Mikamall Concert (Music Festival)",
+				"Azam Automobile Spare Parts Group Conference",
+				"Flower and Plant Exhibition",
+				"Kish Free Zone Organization Artificial Intelligence Conference",
+				"Mikamal Global Sales Skills Conference",
+				"Tabait and Hailey Group Conference",
+				"Dental Congress"
+			],
+			"date": "2023"
+		},
+		{
+			"content": [
+				"Ofoq Kourosh Group Conference",
+				"Daya Seminar Medicine",
+				"International Congress of the Knee Association",
+				"Exhibition to Support Domestic Manufacturing in the Petrorefining Oil and Gas Industry (Asphaltus Pavilion - Bank Sina - Kharazmi - Iranian Oil Industry - Mukesh Dehash)",
+				"Al-Ghadir School Annual Assembly",
+				"Mikamal Ice Rink Music Festival",
+				"The First Specialized Committee of Psychologists of the Kish Health Council",
+				"Kish Cultural Deputy Conference",
+				"Mikamal Ferdowsi Night",
+				"Shiraz Project",
+				"Mikamal Beneficiaries Meeting",
+				"Mikamal Grand Prize Chess Tournament",
+				"Mikamal Marathon Grand Prize Tournament",
+				"Celebrating Cinema Day with the Presence of Professor Nasirian Mikamal",
+				"78th World Fitness Conference and the First Nutrition Conference for Which You Must Write the Exact Title",
+				"Shoniz Conference",
+				"Kish Expo",
+				"Kish Inox",
+				"Sea-Based Economy Conference",
+				"Meeting of CEOs of Organizations and Water and Electricity",
+				"Pazan Grand Marathon",
+				"Book Exhibition",
+				"Sinagen Conference",
+				"Opening of Panorama Hotel with the Presence of the Minister of Heritage Cultural"
+			],
+			"date": "2024"
+		},
+		{
+			"content": [
+				"Iran Petrocom",
+				"Flag Showbiz",
+				"Molvani National Festival",
+				"Mana Clean Energy Conference",
+				"The First ECO Tourism Market Symposium",
+				"Salar Aghili Concert",
+				"Bemarani Mikamall Concert",
+				"TEDX 2025 Kish",
+				"Pazan Marathon 2025",
+				"Inox Exhibition",
+				"Black Friday Mikamall Promotional Video Collection",
+				"Digi Dynatonic Open Air Concert",
+				"Kish Expo Exhibition - Sina Holding"
+			],
+			"date": "2025"
 		}
 	]
 }
