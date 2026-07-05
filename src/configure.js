@@ -378,6 +378,30 @@ function buildJourneyItem(item) {
 	return itemEl;
 }
 
+function buildServiceItem(service) {
+	const itemEl = document.createElement('div');
+	itemEl.classList.add('service-item');
+	itemEl.role = 'listitem';
+
+	const titleEl = document.createElement('h5');
+	titleEl.classList.add('service-title');
+	titleEl.textContent = service.title;
+	itemEl.appendChild(titleEl);
+
+	const imgContainer = document.createElement('div');
+	imgContainer.classList.add('service-img-container');
+	itemEl.appendChild(imgContainer);
+
+	const imgEl = document.createElement('img');
+	imgEl.classList.add('service-img');
+	imgEl.height = 160;
+	imgEl.src = service.img;
+	imgEl.loading = 'lazy';
+	imgContainer.appendChild(imgEl);
+
+	return itemEl;
+}
+
 export async function loadConfig(lang) {
 	if (document.readyState === 'loading') {
 		await new Promise((resolve) =>
@@ -484,17 +508,9 @@ export async function loadConfig(lang) {
 		institutionDetails.appendChild(institution);
 		institutionDetails.appendChild(location);
 
-		const grade = document.createElement('div');
-		grade.classList.add('d-flex', 'align-items-center', 'gap-1', 'fst-italic', 'small');
-		grade.textContent = 'GPA:';
-		const gradeValue = document.createElement('span');
-		gradeValue.textContent = item.grade;
-		grade.appendChild(gradeValue);
-
 		educationItem.appendChild(header);
 		educationItem.appendChild(field);
 		educationItem.appendChild(institutionDetails);
-		educationItem.appendChild(grade);
 
 		educationSection.appendChild(educationItem);
 	});
@@ -536,6 +552,11 @@ export async function loadConfig(lang) {
 	const journeySection = document.getElementById('journey-list');
 	data.journey.forEach((item) => {
 		journeySection.appendChild(buildJourneyItem(item));
+	});
+
+	const servicesUl = document.getElementById('services-ul');
+	data.services.forEach((service) => {
+		servicesUl.appendChild(buildServiceItem(service));
 	});
 
 	const clientsSlider = document.getElementById('clients-slider');
