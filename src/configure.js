@@ -315,7 +315,7 @@ function buildClientsSlider(clients, containerWidth) {
 	clients.forEach((client) => {
 		const clientSlide = document.createElement('div');
 		clientSlide.classList.add('slide');
-		clientSlide.innerHTML = `<img src="${client.logo}" class="" height="150" width="150" loading="lazy" alt="${client.name}" /><span class="client-name">${client.name}</span>`;
+		clientSlide.innerHTML = `<img src="${client.logo}" class="" height="100" width="100" loading="lazy" alt="${client.name}" /><span class="client-name">${client.name}</span>`;
 		clientSlide.style.minWidth = `${minWidth}px`;
 		clientsSlider.appendChild(clientSlide);
 	});
@@ -323,7 +323,7 @@ function buildClientsSlider(clients, containerWidth) {
 	return clientsSlider;
 }
 
-function buildJourneyItem(item) {
+function buildJourneyItem(item, lang) {
 	const itemEl = document.createElement('div');
 	itemEl.classList.add('journey-item');
 	itemEl.role = 'listitem';
@@ -338,7 +338,7 @@ function buildJourneyItem(item) {
 
 	const headerEl = document.createElement('div');
 	headerEl.classList.add('journey-header');
-	headerEl.textContent = `Projects in ${item.date}`;
+	headerEl.textContent = `${lang === 'en' ? 'Projects in' : 'پروژه‌های'} ${item.date}`;
 	container.appendChild(headerEl);
 
 	const contentEl = document.createElement('div');
@@ -420,12 +420,10 @@ export async function loadConfig(lang) {
 	data.projects.forEach((project) => {
 		portfolioGrid.appendChild(buildPortfolioCard(project));
 	});
-	window.projects = data.projects;
 
 	// Generate Skills Section
 	const skillsSection = document.getElementById('skills-section');
 	skillsSection.innerHTML = '';
-
 	data.skills.forEach((skill) => {
 		const skillItem = document.createElement('div');
 		skillItem.classList.add('resume-item', 'd-flex', 'gap-2', 'align-items-center', 'col-auto');
@@ -512,6 +510,32 @@ export async function loadConfig(lang) {
 		educationItem.appendChild(field);
 		educationItem.appendChild(institutionDetails);
 
+		if (item.achivements) {
+			const achivementsEl = document.createElement('div');
+			achivementsEl.classList.add('education-achivements', 'mb-2');
+			const achivementsHeader = document.createElement('h5');
+			achivementsHeader.classList.add('w-100', 'm-0', 'mt-2', 'fw-bold');
+			achivementsHeader.textContent = 'Achivements';
+			achivementsEl.appendChild(achivementsHeader);
+			item.achivements.forEach((achivement) => {
+				const achivementEl = document.createElement('div');
+				achivementEl.classList.add('education-achivement');
+				achivementEl.innerHTML = `
+					<a class="education-media-link" data-bs-toggle="modal" data-bs-target="#education-media-modal" data-title="${achivement.title}" data-media-src="${achivement.media}">
+						<div class="education-media-container">
+							<img src="${achivement.media}" loading="lazy" class="education-image" alt="${achivement.title} Certification Picture">
+							<p class="education-media-footer">${achivement.title}</p>
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="education-achivement-svg bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+								<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+							</svg>
+						</div>
+					</a>`;
+				achivementsEl.appendChild(achivementEl);
+			});
+			educationItem.appendChild(achivementsEl);
+		}
+
 		educationSection.appendChild(educationItem);
 	});
 
@@ -550,21 +574,24 @@ export async function loadConfig(lang) {
 	// });
 
 	const journeySection = document.getElementById('journey-list');
+	journeySection.innerHTML = '';
 	data.journey.forEach((item) => {
-		journeySection.appendChild(buildJourneyItem(item));
+		journeySection.appendChild(buildJourneyItem(item, lang));
 	});
 
 	const servicesUl = document.getElementById('services-ul');
+	servicesUl.innerHTML = '';
 	data.services.forEach((service) => {
 		servicesUl.appendChild(buildServiceItem(service));
 	});
 
 	const clientsSlider = document.getElementById('clients-slider');
+	clientsSlider.innerHTML = '';
 	const clientsSliderWidth = clientsSlider.offsetWidth;
-	for (let i = 0; i < Math.ceil(data.clients.length / 10); i++) {
-		const start = i * 10;
+	for (let i = 0; i < Math.ceil(data.clients.length / 15); i++) {
+		const start = i * 15;
 		clientsSlider.appendChild(
-			buildClientsSlider(data.clients.slice(start, start + 10), clientsSliderWidth),
+			buildClientsSlider(data.clients.slice(start, start + 15), clientsSliderWidth),
 		);
 	}
 	// clientsSlider.style.width = `${150 * data.clients.length}px`;

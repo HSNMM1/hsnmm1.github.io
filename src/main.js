@@ -243,9 +243,36 @@ function initStaggerAnimations() {
 		.addTo(controller);
 }*/
 
+async function loadUI(lang) {
+	const response = await fetch(`./public/ui-${lang}.json`);
+	const ui = await response.json();
+
+	document.querySelectorAll('[data-i18n]').forEach((el) => {
+		const key = el.dataset.i18n;
+		const value = ui[key];
+
+		if (!value) return;
+
+		const attr = el.dataset.i18nAttr;
+
+		if (attr) {
+			el.setAttribute(attr, value);
+		} else {
+			el.textContent = value;
+		}
+	});
+
+	document.documentElement.lang = lang;
+	document.documentElement.dir = lang === 'fa' ? 'rtl' : 'ltr';
+	document.querySelector('main').dir = lang === 'fa' ? 'rtl' : 'ltr';
+
+	localStorage.setItem('lang', lang);
+}
+
 async function renderConfig(lang) {
 	// Wait for config.js to populate the experience section
-	await loadConfig(lang);
+	await Promise.all([loadUI(lang), loadConfig(lang)]);
+
 	initStaggerAnimations();
 	// animateJourneyCards();
 	// animateJourneyLine();
@@ -253,7 +280,10 @@ async function renderConfig(lang) {
 
 // Run after DOM is loaded and initial config-en.json is processed
 document.addEventListener('DOMContentLoaded', async () => {
-	renderConfig('en');
+	const lang = localStorage.getItem('lang') || 'en';
+	document.getElementById('language-toggle').checked = lang === 'fa';
+
+	renderConfig(lang);
 });
 
 // Obfuscated contact information - decode on page load
@@ -313,17 +343,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // Language switch
 document.addEventListener('DOMContentLoaded', () => {
 	document.querySelector('#language-toggle').onchange = (e) => {
-		if (e.currentTarget.checked) {
-			document.documentElement.lang = 'fa';
-			document.documentElement.dir = 'rtl';
-			document.getElementsByTagName('main')[0].dir = 'rtl';
-			renderConfig('fa');
-		} else {
-			document.documentElement.lang = 'en';
-			document.documentElement.dir = 'ltr';
-			document.getElementsByTagName('main')[0].dir = 'ltr';
-			renderConfig('en');
-		}
+		const lang = e.target.checked ? 'fa' : 'en';
+		renderConfig(lang);
 	};
 });
 
@@ -333,17 +354,17 @@ if (window.location.hash.length > 0) {
 
 // Experience section media modal
 document.addEventListener('DOMContentLoaded', () => {
-	const experienceModal = document.getElementById('experience-media-modal');
-	if (experienceModal) {
-		experienceModal.addEventListener('show.bs.modal', (event) => {
+	const mediaModals = document.querySelectorAll('.media-modal');
+	mediaModals.forEach((mediaModal) => {
+		mediaModal.addEventListener('show.bs.modal', (event) => {
 			// Button that triggered the modal
 			const btn = event.relatedTarget;
 			// Extract info from data attributes
 			const src = btn.getAttribute('data-media-src');
 			const title = btn.getAttribute('data-title');
 			// Update the modal's content.
-			experienceModal.querySelector('.modal-title').textContent = `${title} - Gallery`;
-			experienceModal.querySelector('.modal-body img').src = src;
+			mediaModal.querySelector('.modal-title').textContent = `${title} - Gallery`;
+			mediaModal.querySelector('.modal-body img').src = src;
 		});
-	}
+	});
 });
