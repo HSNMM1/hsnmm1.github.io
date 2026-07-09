@@ -134,7 +134,7 @@
 					"date": ".....",
 					"location": "Kish, Iran",
 					"description": [],
-					"media": ["./public/experiences/hezare-sevom.jpg"]
+					"media": ["./public/experiences/hezare-sevom.webp"]
 				}
 			]
 		},
@@ -188,7 +188,7 @@
 					"description": [
 						"Managed protocol and hospitality arrangements for official gatherings and industry events."
 					],
-					"media": []
+					"media": ["./public/experiences/hoteliers.webp"]
 				}
 			]
 		},
@@ -202,6 +202,19 @@
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/eco.jpg"]
+				}
+			]
+		},
+		{
+			"organization": "Drone Pilot",
+			"logo": "./public/logos/",
+			"roles": [
+				{
+					"title": "",
+					"date": ".....",
+					"location": "Kish, Iran",
+					"description": [],
+					"media": ["./public/experiences/aerial1.webp", "./public/experiences/aerial2.webp"]
 				}
 			]
 		}
@@ -233,7 +246,7 @@
 			"name": "First Kish International Fitness & Bodybuilding Congress & 78th World Men's Fitness & Bodybuilding Championship",
 			"image": "./public/portfolio/fitness.jpg",
 			"position": "52%",
-			"role": "Media Director | Event Operations Manager",
+			"role": "Media Director",
 			"description": "Led media coverage, content production, and event broadcasting operations for an international sports championship.",
 			"year": "2024",
 			"location": "Kish Island, Iran",
@@ -253,7 +266,7 @@
 			"name": "Kish Marathon Series",
 			"image": "./public/portfolio/symposium.jpg",
 			"position": "40%",
-			"role": "Project Director | Event Operations Director | Media Director",
+			"role": "Media Director",
 			"description": "Media coverage of multi-stage marathon events across Kish Island with full-course and multi-team coordination.",
 			"year": "2022-2025",
 			"location": "Kish Island, Iran",
@@ -274,7 +287,7 @@
 			"name": "Mica Mall Signature Events",
 			"image": "./public/portfolio/shoniz.jpg",
 			"position": "44%",
-			"role": "Media Director | Media Operations Manager | Content Production Manager | Team Lead",
+			"role": "Media Director | Content Production Manager",
 			"description": "Long-term coverage of diverse cultural, entertainment, and commercial events at Mica Mall.",
 			"year": "2022-2025",
 			"location": "Kish Island, Iran",
@@ -300,7 +313,7 @@
 			"name": "7th International Dental Congress",
 			"image": "./public/portfolio/shoniz.jpg",
 			"position": "44%",
-			"role": "Media Director | Content Production | Event Media Coverage Team",
+			"role": "Media Director",
 			"description": "Scientific event coverage focused on lectures, panels, and exhibition documentation.",
 			"year": "2024",
 			"location": "Kish Island, Iran",
@@ -313,7 +326,7 @@
 			"name": "National & International Exhibitions",
 			"image": "./public/portfolio/shoniz.jpg",
 			"position": "44%",
-			"role": "Media Director | Content Production | Exhibition Coverage Team Lead",
+			"role": "Media Director",
 			"description": "Multi-year coverage of major exhibitions across industries with fast-paced branded content production.",
 			"year": "2021-2025",
 			"location": "Iran",
@@ -331,7 +344,7 @@
 			"name": "Sea-Oriented Economy Conference – Drivers of Sustainable Economic Growth",
 			"image": "./public/portfolio/shoniz.jpg",
 			"position": "44%",
-			"role": "Media Director | Media Operations Manager | Event Content Director | Team Lead",
+			"role": "Media Director",
 			"description": "Led end-to-end media operations for a national conference with an international outlook focused on maritime economy, private-sector investment, and sustainable economic development.",
 			"year": "2024",
 			"location": "Kish International Convention Center, Iran",
@@ -344,7 +357,7 @@
 			"name": "Aerial Cinematography Portfolio",
 			"image": "./public/portfolio/aerial.jpg",
 			"position": "50%",
-			"role": "Drone Pilot | Aerial Cinematographer | Aerial Content Producer",
+			"role": "Drone Pilot | Aerial Content Producer",
 			"description": "Produced professional aerial photography and cinematography for hospitality, commercial, residential, industrial, and television projects across Kish Island and Iran.",
 			"year": ".....",
 			"location": "Kish Island & Iran",
@@ -393,7 +406,8 @@
 		{ "name": "Kish Events Center", "logo": "./public/logos/kish-events.jpg" },
 		{ "name": "Roya Kish Residential Complex", "logo": "./public/logos/royaye-kish.jpg" },
 		{ "name": "Ghadir Financial Group", "logo": "./public/logos/ghadir.jpg" },
-		{ "name": "Alast", "logo": "./public/logos/" },
+		{ "name": "Alast", "logo": "./public/logos/alast.jpg" },
+		{ "name": "MAsoud Abareshi", "logo": "./public/logos/masoud-abareshi.jpg" },
 		{ "name": "Sadegh Younesipoor", "logo": "./public/logos/sadegh-younesipoor.jpg" },
 		{ "name": "Pazan", "logo": "./public/logos/pazan.jpg" },
 		{ "name": "TEDx Kish", "logo": "./public/logos/tedx.jpg" },
@@ -411,7 +425,7 @@
 		{ "name": "Shoniz", "logo": "./public/logos/shoniz.jpg" },
 		{ "name": "Kalleh", "logo": "./public/logos/kalleh.jpg" },
 		{ "name": "Zamzam", "logo": "./public/logos/zamzam.jpg" },
-		{ "name": "Sabanet", "logo": "./public/logos/sabanet.jpg" },
+		{ "name": "Saba Naft", "logo": "./public/logos/sabanet.jpg" },
 		{ "name": "Hamkaran System", "logo": "./public/logos/hamkaran.jpg" },
 		{ "name": "Sina Food Industries", "logo": "./public/logos/sina.jpg" },
 		{ "name": "Pars Pigment and Catalyst", "logo": "./public/logos/PP&C.jpg" },

@@ -467,6 +467,7 @@ export async function loadConfig(lang) {
 			'justify-content-between',
 			'align-items-start',
 			'align-items-sm-center',
+			'mb-1',
 		);
 		const degree = document.createElement('h4');
 		degree.classList.add('degree', 'fs-6', 'm-0');
@@ -498,7 +499,7 @@ export async function loadConfig(lang) {
 			'align-items-sm-center',
 		);
 		const institution = document.createElement('p');
-		institution.classList.add('company-details', 'mb-2');
+		institution.classList.add('company-details', 'mb-0');
 		institution.textContent = item.university;
 		const location = document.createElement('p');
 		location.classList.add('location');
@@ -515,7 +516,7 @@ export async function loadConfig(lang) {
 			achivementsEl.classList.add('education-achivements', 'mb-2');
 			const achivementsHeader = document.createElement('h5');
 			achivementsHeader.classList.add('w-100', 'm-0', 'mt-2', 'fw-bold');
-			achivementsHeader.textContent = 'Achivements';
+			achivementsHeader.textContent = lang === 'en' ? 'Achivements' : 'دستاوردها';
 			achivementsEl.appendChild(achivementsHeader);
 			item.achivements.forEach((achivement) => {
 				const achivementEl = document.createElement('div');
