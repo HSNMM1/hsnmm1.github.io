@@ -595,6 +595,19 @@ body {
 	}
 }
 
+.experience-inline-logos {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: 0.7rem;
+}
+.experience-inline-logos li {
+	list-style-type: none;
+	border: 1px solid var(--gold-softer);
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
 .education-achivements {
 	display: flex;
 	flex-wrap: wrap;
@@ -934,8 +947,8 @@ input.check-toggle-round-flat:checked ~ .on {
 
 input.check-toggle-round-flat + label {
 	padding: 2px;
-	width: 71px;
-	height: 31px;
+	width: 70px;
+	height: 30px;
 	background-color: var(--ink-2);
 	-webkit-border-radius: 60px;
 	-moz-border-radius: 60px;

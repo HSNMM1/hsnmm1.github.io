@@ -109,7 +109,7 @@ function buildRoleItem(role, organizationName) {
 						<a class="role-media-link" data-bs-toggle="modal" data-bs-target="#experience-media-modal" data-title="${organizationName}" data-media-src="${mediaUrl}">
 							<div class="role-media-container">
 								<img src="${mediaUrl}" loading="lazy" class="role-image" alt="Photo of the role ${role.title} in ${organizationName}">
-								<small class="role-media-footer">Certificate
+								<small class="role-media-footer">${lang === 'en' ? 'Certificate' : 'گواهی'}
 									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
 										<path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
 										<path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
@@ -323,7 +323,7 @@ function buildClientsSlider(clients, containerWidth) {
 	return clientsSlider;
 }
 
-function buildJourneyItem(item, lang) {
+function buildJourneyItem(item) {
 	const itemEl = document.createElement('div');
 	itemEl.classList.add('journey-item');
 	itemEl.role = 'listitem';
@@ -402,15 +402,17 @@ function buildServiceItem(service) {
 	return itemEl;
 }
 
-export async function loadConfig(lang) {
+let lang = 'en';
+export async function loadConfig(selectedLang) {
 	if (document.readyState === 'loading') {
 		await new Promise((resolve) =>
 			document.addEventListener('DOMContentLoaded', resolve, { once: true }),
 		);
 	}
 
-	const response = await fetch(`public/config-${lang}.json`);
+	const response = await fetch(`public/config-${selectedLang}.json`);
 	const data = await response.json();
+	lang = selectedLang;
 
 	const bioSection = document.getElementById('bio-section');
 	bioSection.innerHTML = data.personal_info.bio;
@@ -577,7 +579,7 @@ export async function loadConfig(lang) {
 	const journeySection = document.getElementById('journey-list');
 	journeySection.innerHTML = '';
 	data.journey.forEach((item) => {
-		journeySection.appendChild(buildJourneyItem(item, lang));
+		journeySection.appendChild(buildJourneyItem(item));
 	});
 
 	const servicesUl = document.getElementById('services-ul');

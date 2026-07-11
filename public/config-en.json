@@ -2,7 +2,7 @@
 	"personal_info": {
 		"name": "Hasan",
 		"title": "Founder & Managing Director of H Studio | Event Planner | Event Media Director | Hospitality & Protocol Specialist",
-		"bio": "I am the founder of H studio; a company specialized in the design, planning and execution of large events, protocol management, content production, live broadcast and media operations.<br>My professional path began in my teenage years and from the heart of the media and broadcast space. After receiving specialized degrees in photography and videography in 2014, I entered the professional job market and from the very beginning I was active in advertising projects, branding and video content production.<br>While studying hotel management and protocol and earning the title of top student, my practical experience in the field of protocol, hospitality and event management developed. This combination led me to be at the intersection of media, hotel management, protocol and event management.<br>Continuing on the path, by managing and executing more than 500 projects and collaborating with more than 50 national and international brands and organizations, H Studio was formed as a company specialized in the fields of Event Operations, Media Production and Protocol Management."
+		"bio": "H Studio is a specialized Event Planning, Event Management, Event Marketing, and Media Production agency dedicated to creating impactful experiences for brands, organizations, and audiences.<br>With an integrated approach, H Studio manages the complete event journey — from concept development and strategic planning to production, execution, media operations, live broadcasting, content creation, guest experience, and hospitality management.<br>Powered by a multidisciplinary team of professionals across event management, marketing, media production, creative direction, hospitality, and project operations, H Studio has successfully delivered and managed more than 500 projects including conferences, summits, exhibitions, corporate events, brand activations, and experience-driven campaigns.<br>Based in Kish Island, Iran, H Studio combines creative storytelling, professional hospitality standards, and operational excellence to help brands create memorable, measurable, and highly engaging experiences.<br>Founded and led by Hassan Mohammadi, Founder & CEO of H Studio, the company operates at the intersection of events, media, and brand experience — transforming ideas into impactful moments."
 	},
 	"education": [
 		{
@@ -54,14 +54,13 @@
 		}
 	],
 	"skills": [
-		"Event Management",
-		"Protocol Management",
-		"Hospitality Operations",
+		"Event Media Operations",
 		"Media Production",
+		"Protocol Manager",
+		"Content Production",
 		"Creative Direction",
 		"Livestream Operations",
 		"Project Management",
-		"Vendor Coordination",
 		"Photography",
 		"Videography",
 		"Drone Operations"
@@ -78,7 +77,8 @@
 					"description": [
 						"H Studio is a specialized event media and production company with a team size of 6 – 20 professionals, based in Kish Island.",
 						"The company focuses on: Conferences, Seminars, Exhibitions, Sports Events, Corporate Events, Live Broadcast Productions, Hospitality & Protocol Services.",
-						"Delivered 500+ projects to clients."
+						"Delivered 500+ projects to clients.",
+						"Team: <ul class=\"experience-inline-logos\"><li><img src=\"./public/logos/masoud-abareshi.jpg\" width=\"100\"/></li><li><img src=\"./public/logos/sadegh-younesipoor.jpg\" width=\"100\"/></li><li><img src=\"./public/logos/reza-khalaji.jpg\" width=\"100\"/></li></ul>"
 					],
 					"media": ["./public/experiences/h-studio.jpg"]
 				}
@@ -113,28 +113,28 @@
 			]
 		},
 		{
+			"organization": "ECO Member States Symposium",
+			"logo": "./public/logos/symposium.jpg",
+			"roles": [
+				{
+					"title": "Director and Project Manager",
+					"date": "2025",
+					"location": "Kish, Iran",
+					"description": [],
+					"media": ["./public/experiences/eco.jpg"]
+				}
+			]
+		},
+		{
 			"organization": "Gardoon Company",
 			"logo": "./public/logos/gardoon.jpg",
 			"roles": [
 				{
 					"title": "Media Manager & Marketing Consultant",
-					"date": "2026 - Present",
+					"date": "2023 - Present",
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/gardoon.jpg"]
-				}
-			]
-		},
-		{
-			"organization": "Hezareh Sevom Tashrifatieh Company",
-			"logo": "./public/logos/hezare-sevom.jpg",
-			"roles": [
-				{
-					"title": "Media Partner & Content Production Executive",
-					"date": ".....",
-					"location": "Kish, Iran",
-					"description": [],
-					"media": ["./public/experiences/hezare-sevom.webp"]
 				}
 			]
 		},
@@ -152,12 +152,25 @@
 			]
 		},
 		{
+			"organization": "Asr Jadid Kish Company",
+			"logo": "./public/logos/asrejadid.jpg",
+			"roles": [
+				{
+					"title": "Media Manager",
+					"date": "2021 - Present",
+					"location": "Kish, Iran",
+					"description": [],
+					"media": ["./public/experiences/asre-jadid.jpg"]
+				}
+			]
+		},
+		{
 			"organization": "1st International Bodybuilding & Fitness Congress",
 			"logo": "./public/logos/bodybuilding-congress.jpg",
 			"roles": [
 				{
 					"title": "Content Production Executive",
-					"date": ".....",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/bodybuilding-congress.jpg"]
@@ -165,15 +178,15 @@
 			]
 		},
 		{
-			"organization": "Asr Jadid Kish Company",
-			"logo": "./public/logos/asrejadid.jpg",
+			"organization": "Hezareh Sevom Tashrifatieh Company",
+			"logo": "./public/logos/hezare-sevom.jpg",
 			"roles": [
 				{
-					"title": "Media Manager",
+					"title": "Media Partner & Content Production Executive",
 					"date": ".....",
 					"location": "Kish, Iran",
 					"description": [],
-					"media": ["./public/experiences/asre-jadid.jpg"]
+					"media": ["./public/experiences/hezare-sevom.webp"]
 				}
 			]
 		},
@@ -182,8 +195,8 @@
 			"logo": "./public/logos/qeshm-hoteliers.jpg",
 			"roles": [
 				{
-					"title": "Protocol Coordinator & General Assembly Executive",
-					"date": ".....",
+					"title": "Protocol Coordinator",
+					"date": "",
 					"location": "Qeshm, Iran",
 					"description": [
 						"Managed protocol and hospitality arrangements for official gatherings and industry events."
@@ -193,27 +206,22 @@
 			]
 		},
 		{
-			"organization": "ECO Member States Symposium",
-			"logo": "./public/logos/symposium.jpg",
-			"roles": [
-				{
-					"title": "Project Director & Event Director",
-					"date": ".....",
-					"location": "Kish, Iran",
-					"description": [],
-					"media": ["./public/experiences/eco.jpg"]
-				}
-			]
-		},
-		{
 			"organization": "Drone Pilot",
 			"logo": "./public/logos/",
 			"roles": [
 				{
 					"title": "",
-					"date": ".....",
+					"date": "2020 - Present",
 					"location": "Kish, Iran",
-					"description": [],
+					"description": [
+						"Certified Professional UAV Pilot",
+						"Certified Aerial Photography & Videography Operator",
+						"Over 6 years of professional flight operations experience",
+						"Licensed and officially registered drone operator",
+						"Insured aerial operations platform",
+						"Experienced in obtaining flight permits and operational clearances for events and projects across Iran",
+						"Extensive experience in aerial coverage of sporting events, conferences, exhibitions, tourism projects, and marketing campaigns"
+					],
 					"media": ["./public/experiences/aerial1.webp", "./public/experiences/aerial2.webp"]
 				}
 			]
@@ -248,7 +256,7 @@
 			"position": "52%",
 			"role": "Media Director",
 			"description": "Led media coverage, content production, and event broadcasting operations for an international sports championship.",
-			"year": "2024",
+			"year": "2023",
 			"location": "Kish Island, Iran",
 			"client": "Federation of Bodybuilding and Fitness",
 			"detail": "## Project Overview\nThe First Kish International Fitness & Bodybuilding Congress, held concurrently with the 78th World Men's Fitness & Bodybuilding Championship, was one of the largest international sports events hosted on Kish Island. The event brought together athletes, coaches, judges, industry experts, and federation representatives from multiple countries. Delivering a project of this scale required seamless coordination between operations, media, content production, and event management teams while maintaining international standards throughout the event.\n\n---\n\n### Challenges\n- Managing international delegations, athletes, and officials\n- Strict competition schedules and time-sensitive operations\n- Comprehensive coverage of both the congress and championship activities\n- Simultaneous management of multiple operational zones, including competition venues, backstage areas, congress sessions, and media centers\n- High-volume content production and rapid media delivery\n- Maintaining consistency and quality across all media outputs during the event\n\n---\n\n### Responsibilities\n- Leading the event's media operations\n- Managing content production teams\n- Planning and supervising visual coverage of both the congress and championship\n- Coordinating between media teams and event operations departments\n- Overseeing post-production workflows and content distribution\n- Ensuring quality control across all visual and media assets\n- Managing event communications and news coverage\n\n---\n\n### Execution Team\n- Content Production Team\n- Video Production Crew\n- Editing & Post-Production Team\n- News & Media Coverage Team\n- Event Coordination Staff\n**Team Size:** 10–15 Professionals\n\n---\n\n### Key Achievements\n- Delivered full media coverage for one of the country's most significant international sports events\n- Produced and distributed continuous news and promotional content throughout the event\n- Successfully managed simultaneous media operations for both the congress and world championship\n- Delivered professional-grade media assets aligned with international event standards\n- Executed the project without disruptions to media workflows or event coverage\n\n---\n\n### Key Highlight\nThe project uniquely combined an international professional congress with a world championship event, creating a highly dynamic and multi-layered operational environment. Successfully managing both platforms simultaneously required precise planning, resource allocation, and real-time coordination across multiple teams and venues.",
@@ -268,7 +276,7 @@
 			"position": "40%",
 			"role": "Media Director",
 			"description": "Media coverage of multi-stage marathon events across Kish Island with full-course and multi-team coordination.",
-			"year": "2022-2025",
+			"year": "2023 - 2025",
 			"location": "Kish Island, Iran",
 			"client": "Pazan",
 			"detail": "## Project Overview\nThe Kish Marathon Series, consisting of two Marathon & Half Marathon events and one Mini Marathon held between 2022 and 2025 on Kish Island, is among the island's most significant sports events. Bringing together professional athletes, amateur runners, and endurance sports enthusiasts, the series required extensive media planning and execution across three consecutive editions. H Studio managed the complete media operation, from pre-event content strategy and production planning to live coverage, promotional content, documentation, and post-event media delivery.\n\n---\n\n### Challenges\n- Covering long race routes spanning multiple locations across Kish Island\n- Capturing critical race moments in real time without opportunities for repetition\n- Coordinating multiple operational teams deployed along the race course\n- Managing simultaneous ground coverage, aerial filming, and live content production\n- Meeting tight production and publishing deadlines throughout the event\n- Maintaining consistent quality across extended operational hours and multiple teams\n\n---\n\n### Responsibilities\n- Developing the event's media strategy and coverage plan\n- Managing content production before, during, and after each event\n- Leading photography, videography, drone, and content creation teams\n- Planning and executing race route media coverage across the island\n- Coordinating media operations with event management teams\n- Supervising quality control for all visual and media deliverables\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Drone Operations Team\n- Content Creation Team\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 12–18 Professionals\n\n---\n\n### Key Achievements\n- Successfully managed media operations for three consecutive editions of the Kish Marathon Series\n- Delivered comprehensive media coverage throughout all stages of each race\n- Produced an extensive archive of promotional and documentary media assets\n- Coordinated multiple operational teams across various race locations simultaneously\n- Delivered high-quality media outputs aligned with the client's branding and communication objectives\n\n---\n\n### Key Highlight\nUnlike conventional sporting events held within a single venue, the Kish Marathon Series required simultaneous deployment of multiple media teams across a large geographical area. Successfully managing media operations over three consecutive editions demanded precise logistical planning, real-time coordination, and efficient resource allocation, while the continued partnership reflected the client's trust in H Studio's ability to deliver large-scale sports media projects consistently.",
@@ -280,63 +288,6 @@
 				"./public/portfolio/2/16.webp",
 				"./public/portfolio/2/23.webp",
 				"./public/portfolio/2/25.webp"
-			]
-		},
-		{
-			"id": 4,
-			"name": "Mica Mall Signature Events",
-			"image": "./public/portfolio/shoniz.jpg",
-			"position": "44%",
-			"role": "Media Director | Content Production Manager",
-			"description": "Long-term coverage of diverse cultural, entertainment, and commercial events at Mica Mall.",
-			"year": "2022-2025",
-			"location": "Kish Island, Iran",
-			"client": "Mica Mall",
-			"detail": "## Project Overview\nBetween 2022 and 2025, H Studio managed media operations and content production for a wide range of events hosted at Mica Mall, one of Iran's leading commercial, entertainment, and lifestyle destinations. The collaboration covered concerts, live performances, grand openings, sports competitions, seasonal celebrations, educational programs, and audience engagement activities. Delivering media services across such a diverse portfolio required continuous planning, operational flexibility, and consistent creative execution while maintaining Mica Mall's brand identity. Key events included performances by Lian Band, Heydoo, Syria, Vol Shodegan, Dalband, Sama Dance, the Ice Rink Grand Opening, Grand Chess Tournament, Mica Mall Mini Marathon, and numerous cultural and educational programs.\n\n---\n\n### Challenges\n- Managing media operations across a wide variety of event formats\n- Maintaining Mica Mall's visual identity and brand standards across all content\n- Covering live events with strict timing and operational requirements\n- Coordinating with performers, organizers, venue management, and operational teams\n- Producing high-volume content within demanding deadlines\n- Managing media workflows during high-attendance public events\n- Maintaining consistency and quality throughout a multi-year collaboration\n\n---\n\n### Responsibilities\n- Developing media strategies and coverage plans for various events\n- Managing content production and media operations\n- Leading photography, videography, drone, and content creation teams\n- Executing ground and aerial visual coverage\n- Producing promotional videos and social media content\n- Managing event documentation and media archives\n- Coordinating media teams with operational departments\n- Supervising editing workflows and content delivery\n- Ensuring quality control across all media outputs\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Drone Operations Team\n- Content Creation Team\n- Editing & Post-Production Team\n- Event Coordination Staff\n**Team Size:** 5–10 Professionals\n\n---\n\n### Key Achievements\n- Successfully managed media operations for dozens of events over multiple years\n- Produced hundreds of hours of video content and thousands of professional photographs\n- Delivered comprehensive coverage for major cultural, entertainment, educational, and sports events\n- Strengthened Mica Mall's brand presence through strategic content production\n- Built a comprehensive visual archive of the venue's flagship events\n- Maintained consistent quality across a diverse range of event formats\n\n---\n\n### Key Highlight\nRather than focusing on a single event, this long-term partnership required continuous adaptation to concerts, sports competitions, educational programs, public celebrations, grand openings, and entertainment experiences. Successfully delivering consistent, high-quality media across such diverse productions demonstrates H Studio's ability to manage complex media operations and support one of the region's most active lifestyle and entertainment destinations.",
-			"media": ["(عکس‌ها)", "(ویدیوها)"]
-		},
-		{
-			"id": 5,
-			"name": "Shoniz Flag Show (Flagship Campaign)",
-			"image": "./public/portfolio/shoniz.jpg",
-			"position": "44%",
-			"role": "Media Director | Content Operations Manager | Production & Marketing Team Lead",
-			"description": "Integrated media and marketing execution for a national-level brand activation campaign.",
-			"year": "2022-2025",
-			"location": "Kish Island, Iran",
-			"client": "Shoniz",
-			"detail": "## Project Overview\nThe Shoniz Flag Show was a national brand activation and experiential marketing campaign designed to create a strong, visually impactful, and media-driven presence for the Shoniz brand. H Studio was responsible for planning, coordinating, and executing the campaign's complete media and content production operations. The project integrated photography, videography, drone coverage, audio production, editing, content creation, and marketing into a unified production workflow executed by a multidisciplinary team of approximately 15 professionals.\n\n---\n\n### Challenges\n- Executing a high-profile national brand campaign\n- Coordinating audio, video, content, and marketing operations simultaneously\n- Managing multidisciplinary teams under live production schedules\n- Maintaining Shoniz's brand quality standards across all deliverables\n- Aligning technical, creative, and operational departments\n- Producing high-quality promotional content under tight deadlines\n\n---\n\n### Responsibilities\n- Managing all campaign media operations\n- Designing and executing the visual coverage strategy\n- Leading photography, videography, drone, and post-production teams\n- Managing audio systems and technical production\n- Planning content production and publishing workflows\n- Coordinating marketing activities and campaign execution\n- Ensuring quality control across all media outputs\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Drone Operations Team\n- Audio & Technical Team\n- Editing & Post-Production Team\n- Content & Marketing Team\n- Operational Coordination Staff\n**Team Size:** ~15 Professionals\n\n---\n\n### Key Achievements\n- Successfully executed a national-level brand activation campaign for Shoniz\n- Produced high-quality promotional and campaign media assets\n- Integrated audio, video, and content production into a unified workflow\n- Strengthened the brand's presence through immersive live campaign experiences\n- Effectively managed a multidisciplinary production team in a high-pressure environment\n- Created a reusable archive of campaign media assets for future marketing initiatives\n\n---\n\n### Key Highlight\nThe defining feature of this project was its fully integrated production structure, where audio, visual production, editing, content creation, and marketing were managed simultaneously within a single coordinated workflow. Successfully delivering this complex campaign demonstrates H Studio's ability to execute large-scale brand activations while maintaining operational efficiency and high creative standards.",
-			"media": ["./public/portfolio/5/2.webp"]
-		},
-		{
-			"id": 6,
-			"name": "7th International Dental Congress",
-			"image": "./public/portfolio/shoniz.jpg",
-			"position": "44%",
-			"role": "Media Director",
-			"description": "Scientific event coverage focused on lectures, panels, and exhibition documentation.",
-			"year": "2024",
-			"location": "Kish Island, Iran",
-			"client": "###",
-			"detail": "## Project Overview\nThe 7th International Dental Congress was a specialized scientific event that brought together professors, researchers, dental specialists, and industry companies to exchange knowledge and showcase the latest advancements in dentistry. The congress featured scientific lectures, expert panels, research presentations, and a dental equipment exhibition. H Studio was responsible for the event's complete media coverage, documenting academic sessions, exhibition activities, and producing both promotional and archival media content for the organizers.\n\n---\n\n### Challenges\n- Covering multiple lecture halls and parallel scientific sessions\n- Capturing academic presentations without missing key moments\n- Managing tightly scheduled conference operations\n- Coordinating filming and editing teams under strict timelines\n- Producing content suitable for both scientific archives and promotional use\n- Maintaining high-quality media standards in a formal academic environment\n\n---\n\n### Responsibilities\n- Planning and executing comprehensive media coverage of the congress\n- Filming lectures, scientific panels, and presentations\n- Documenting the dental exhibition area\n- Producing professional photography and videography content\n- Managing photography and videography teams\n- Editing and delivering final media assets\n- Providing archival and promotional materials to the organizers\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 5–10 Professionals\n\n---\n\n### Key Achievements\n- Delivered complete media coverage of a major international dental congress\n- Accurately documented scientific sessions and exhibition activities\n- Produced archival media for educational and promotional purposes\n- Delivered professional media assets aligned with academic event standards\n- Successfully executed media operations within a structured scientific environment\n\n---\n\n### Key Highlight\nThe scientific nature of the congress demanded precise documentation, careful attention to educational content, and strict adherence to professional standards. Successfully capturing parallel sessions and technical presentations demonstrates H Studio's capability to manage media operations for high-level academic events in structured and time-sensitive environments.",
-			"media": ["(عکس‌ها)", "(ویدیوها)"]
-		},
-		{
-			"id": 7,
-			"name": "National & International Exhibitions",
-			"image": "./public/portfolio/shoniz.jpg",
-			"position": "44%",
-			"role": "Media Director",
-			"description": "Multi-year coverage of major exhibitions across industries with fast-paced branded content production.",
-			"year": "2021-2025",
-			"location": "Iran",
-			"client": "Major Exhibition Centers",
-			"detail": "## Project Overview\nBetween 2021 and 2025, H Studio managed media coverage and content production for numerous national and international exhibitions across Iran's major exhibition centers. The scope included official event coverage as well as branded content production for government organizations, private companies, and international exhibitors. Industries covered included oil & petrochemicals, steel, technology, tourism, publishing, banking, insurance, investment, maritime, and agriculture. Major exhibitions included the Tehran International Book Fair, Petrochemical Exhibition, INOTEX, Steel & Mining Industry Exhibition, Tourism Exhibition, Iran Expo, Maritime Industry Exhibition, and the Flower & Plant Exhibition.\n\n---\n\n### Challenges\n- Managing simultaneous media coverage across large and crowded exhibition venues\n- Documenting exhibition booths for diverse national and international brands\n- Coordinating with government, corporate, and private-sector organizations\n- Producing high-quality content under tight production deadlines\n- Maintaining consistent visual standards across industrial and formal environments\n- Operating multiple media teams across several exhibition halls simultaneously\n\n---\n\n### Responsibilities\n- Planning and executing comprehensive exhibition media coverage\n- Producing professional photography and videography for booths and event spaces\n- Collaborating with exhibitors to create promotional and branded content\n- Managing photography and videography teams\n- Editing and delivering final media assets\n- Providing live event coverage and documentation\n- Producing customized visual content for participating organizations\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 8–15 Professionals\n\n---\n\n### Key Achievements\n- Delivered media coverage for dozens of national and international exhibitions\n- Produced high-quality branded content for major governmental, industrial, and commercial organizations\n- Collaborated with leading exhibitors across multiple industries\n- Built a comprehensive visual archive spanning diverse industrial sectors\n- Successfully executed long-term exhibition media projects across multiple venues\n- Enhanced the branding and promotional impact of participating exhibitors\n\n---\n\n### Key Highlight\nThe project's defining strength was its breadth of industries and partnerships with leading national and international organizations. Unlike conventional event coverage, each exhibition required adapting to unique brand identities, operational requirements, and communication goals. Successfully delivering tailored media solutions across multiple sectors demonstrates H Studio's expertise in managing large-scale exhibition media operations in highly dynamic environments.",
-			"media": [
-				"./public/portfolio/7/1.webp",
-				"./public/portfolio/7/2.webp",
-				"./public/portfolio/7/3.webp",
-				"./public/portfolio/7/4.webp"
 			]
 		},
 		{
@@ -353,13 +304,70 @@
 			"media": ["(عکس‌ها)", "(ویدیوها)"]
 		},
 		{
+			"id": 4,
+			"name": "Mica Mall Signature Events",
+			"image": "./public/portfolio/shoniz.jpg",
+			"position": "44%",
+			"role": "Public Relations Team Member | Event Operations Manager",
+			"description": "Long-term coverage of diverse cultural, entertainment, and commercial events at Mica Mall.",
+			"year": "2021 - 2025",
+			"location": "Kish Island, Iran",
+			"client": "Mica Mall",
+			"detail": "## Project Overview\nBetween 2022 and 2025, H Studio managed media operations and content production for a wide range of events hosted at Mica Mall, one of Iran's leading commercial, entertainment, and lifestyle destinations. The collaboration covered concerts, live performances, grand openings, sports competitions, seasonal celebrations, educational programs, and audience engagement activities. Delivering media services across such a diverse portfolio required continuous planning, operational flexibility, and consistent creative execution while maintaining Mica Mall's brand identity. Key events included performances by Lian Band, Heydoo, Syria, Vol Shodegan, Dalband, Sama Dance, the Ice Rink Grand Opening, Grand Chess Tournament, Mica Mall Mini Marathon, and numerous cultural and educational programs.\n\n---\n\n### Challenges\n- Managing media operations across a wide variety of event formats\n- Maintaining Mica Mall's visual identity and brand standards across all content\n- Covering live events with strict timing and operational requirements\n- Coordinating with performers, organizers, venue management, and operational teams\n- Producing high-volume content within demanding deadlines\n- Managing media workflows during high-attendance public events\n- Maintaining consistency and quality throughout a multi-year collaboration\n\n---\n\n### Responsibilities\n- Developing media strategies and coverage plans for various events\n- Managing content production and media operations\n- Leading photography, videography, drone, and content creation teams\n- Executing ground and aerial visual coverage\n- Producing promotional videos and social media content\n- Managing event documentation and media archives\n- Coordinating media teams with operational departments\n- Supervising editing workflows and content delivery\n- Ensuring quality control across all media outputs\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Drone Operations Team\n- Content Creation Team\n- Editing & Post-Production Team\n- Event Coordination Staff\n**Team Size:** 5–10 Professionals\n\n---\n\n### Key Achievements\n- Successfully managed media operations for dozens of events over multiple years\n- Produced hundreds of hours of video content and thousands of professional photographs\n- Delivered comprehensive coverage for major cultural, entertainment, educational, and sports events\n- Strengthened Mica Mall's brand presence through strategic content production\n- Built a comprehensive visual archive of the venue's flagship events\n- Maintained consistent quality across a diverse range of event formats\n\n---\n\n### Key Highlight\nRather than focusing on a single event, this long-term partnership required continuous adaptation to concerts, sports competitions, educational programs, public celebrations, grand openings, and entertainment experiences. Successfully delivering consistent, high-quality media across such diverse productions demonstrates H Studio's ability to manage complex media operations and support one of the region's most active lifestyle and entertainment destinations.",
+			"media": ["(عکس‌ها)", "(ویدیوها)"]
+		},
+		{
+			"id": 5,
+			"name": "Shoniz Flag Show (Flagship Campaign)",
+			"image": "./public/portfolio/shoniz.jpg",
+			"position": "44%",
+			"role": "Operations Manager | Content Production Team Lead",
+			"description": "Integrated media and marketing execution for a national-level brand activation campaign.",
+			"year": "2024",
+			"location": "Kish Island, Iran",
+			"client": "Shoniz",
+			"detail": "## Project Overview\nThe Shoniz Flag Show was a national brand activation and experiential marketing campaign designed to create a strong, visually impactful, and media-driven presence for the Shoniz brand. H Studio was responsible for planning, coordinating, and executing the campaign's complete media and content production operations. The project integrated photography, videography, drone coverage, audio production, editing, content creation, and marketing into a unified production workflow executed by a multidisciplinary team of approximately 15 professionals.\n\n---\n\n### Challenges\n- Executing a high-profile national brand campaign\n- Coordinating audio, video, content, and marketing operations simultaneously\n- Managing multidisciplinary teams under live production schedules\n- Maintaining Shoniz's brand quality standards across all deliverables\n- Aligning technical, creative, and operational departments\n- Producing high-quality promotional content under tight deadlines\n\n---\n\n### Responsibilities\n- Managing all campaign media operations\n- Designing and executing the visual coverage strategy\n- Leading photography, videography, drone, and post-production teams\n- Managing audio systems and technical production\n- Planning content production and publishing workflows\n- Coordinating marketing activities and campaign execution\n- Ensuring quality control across all media outputs\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Drone Operations Team\n- Audio & Technical Team\n- Editing & Post-Production Team\n- Content & Marketing Team\n- Operational Coordination Staff\n**Team Size:** ~15 Professionals\n\n---\n\n### Key Achievements\n- Successfully executed a national-level brand activation campaign for Shoniz\n- Produced high-quality promotional and campaign media assets\n- Integrated audio, video, and content production into a unified workflow\n- Strengthened the brand's presence through immersive live campaign experiences\n- Effectively managed a multidisciplinary production team in a high-pressure environment\n- Created a reusable archive of campaign media assets for future marketing initiatives\n\n---\n\n### Key Highlight\nThe defining feature of this project was its fully integrated production structure, where audio, visual production, editing, content creation, and marketing were managed simultaneously within a single coordinated workflow. Successfully delivering this complex campaign demonstrates H Studio's ability to execute large-scale brand activations while maintaining operational efficiency and high creative standards.",
+			"media": ["./public/portfolio/5/2.webp"]
+		},
+		{
+			"id": 6,
+			"name": "7th International Dental Congress",
+			"image": "./public/portfolio/shoniz.jpg",
+			"position": "44%",
+			"role": "Media Director",
+			"description": "Scientific event coverage focused on lectures, panels, and exhibition documentation.",
+			"year": "2024",
+			"location": "Kish Island, Iran",
+			"client": "International Dental Congress",
+			"detail": "## Project Overview\nThe 7th International Dental Congress was a specialized scientific event that brought together professors, researchers, dental specialists, and industry companies to exchange knowledge and showcase the latest advancements in dentistry. The congress featured scientific lectures, expert panels, research presentations, and a dental equipment exhibition. H Studio was responsible for the event's complete media coverage, documenting academic sessions, exhibition activities, and producing both promotional and archival media content for the organizers.\n\n---\n\n### Challenges\n- Covering multiple lecture halls and parallel scientific sessions\n- Capturing academic presentations without missing key moments\n- Managing tightly scheduled conference operations\n- Coordinating filming and editing teams under strict timelines\n- Producing content suitable for both scientific archives and promotional use\n- Maintaining high-quality media standards in a formal academic environment\n\n---\n\n### Responsibilities\n- Planning and executing comprehensive media coverage of the congress\n- Filming lectures, scientific panels, and presentations\n- Documenting the dental exhibition area\n- Producing professional photography and videography content\n- Managing photography and videography teams\n- Editing and delivering final media assets\n- Providing archival and promotional materials to the organizers\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 5–10 Professionals\n\n---\n\n### Key Achievements\n- Delivered complete media coverage of a major international dental congress\n- Accurately documented scientific sessions and exhibition activities\n- Produced archival media for educational and promotional purposes\n- Delivered professional media assets aligned with academic event standards\n- Successfully executed media operations within a structured scientific environment\n\n---\n\n### Key Highlight\nThe scientific nature of the congress demanded precise documentation, careful attention to educational content, and strict adherence to professional standards. Successfully capturing parallel sessions and technical presentations demonstrates H Studio's capability to manage media operations for high-level academic events in structured and time-sensitive environments.",
+			"media": ["(عکس‌ها)", "(ویدیوها)"]
+		},
+		{
+			"id": 7,
+			"name": "National & International Exhibitions",
+			"image": "./public/portfolio/shoniz.jpg",
+			"position": "44%",
+			"role": "Media Director",
+			"description": "Multi-year coverage of major exhibitions across industries with fast-paced branded content production.",
+			"year": "2020 - Present",
+			"location": "Iran",
+			"client": "Major companies",
+			"detail": "## Project Overview\nBetween 2021 and 2025, H Studio managed media coverage and content production for numerous national and international exhibitions across Iran's major exhibition centers. The scope included official event coverage as well as branded content production for government organizations, private companies, and international exhibitors. Industries covered included oil & petrochemicals, steel, technology, tourism, publishing, banking, insurance, investment, maritime, and agriculture. Major exhibitions included the Tehran International Book Fair, Petrochemical Exhibition, INOTEX, Steel & Mining Industry Exhibition, Tourism Exhibition, Iran Expo, Maritime Industry Exhibition, and the Flower & Plant Exhibition.\n\n---\n\n### Challenges\n- Managing simultaneous media coverage across large and crowded exhibition venues\n- Documenting exhibition booths for diverse national and international brands\n- Coordinating with government, corporate, and private-sector organizations\n- Producing high-quality content under tight production deadlines\n- Maintaining consistent visual standards across industrial and formal environments\n- Operating multiple media teams across several exhibition halls simultaneously\n\n---\n\n### Responsibilities\n- Planning and executing comprehensive exhibition media coverage\n- Producing professional photography and videography for booths and event spaces\n- Collaborating with exhibitors to create promotional and branded content\n- Managing photography and videography teams\n- Editing and delivering final media assets\n- Providing live event coverage and documentation\n- Producing customized visual content for participating organizations\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 8–15 Professionals\n\n---\n\n### Key Achievements\n- Delivered media coverage for dozens of national and international exhibitions\n- Produced high-quality branded content for major governmental, industrial, and commercial organizations\n- Collaborated with leading exhibitors across multiple industries\n- Built a comprehensive visual archive spanning diverse industrial sectors\n- Successfully executed long-term exhibition media projects across multiple venues\n- Enhanced the branding and promotional impact of participating exhibitors\n\n---\n\n### Key Highlight\nThe project's defining strength was its breadth of industries and partnerships with leading national and international organizations. Unlike conventional event coverage, each exhibition required adapting to unique brand identities, operational requirements, and communication goals. Successfully delivering tailored media solutions across multiple sectors demonstrates H Studio's expertise in managing large-scale exhibition media operations in highly dynamic environments.",
+			"media": [
+				"./public/portfolio/7/1.webp",
+				"./public/portfolio/7/2.webp",
+				"./public/portfolio/7/3.webp",
+				"./public/portfolio/7/4.webp"
+			]
+		},
+		{
 			"id": 9,
 			"name": "Aerial Cinematography Portfolio",
 			"image": "./public/portfolio/aerial.jpg",
 			"position": "50%",
 			"role": "Drone Pilot | Aerial Content Producer",
 			"description": "Produced professional aerial photography and cinematography for hospitality, commercial, residential, industrial, and television projects across Kish Island and Iran.",
-			"year": ".....",
+			"year": "2020 - Present",
 			"location": "Kish Island & Iran",
 			"client": "Multiple Commercial Clients",
 			"detail": "## Project Overview\n\nOver several years, I provided professional aerial cinematography and drone imaging services for a diverse portfolio of clients, including luxury hotels, tourism destinations, residential and commercial developments, industrial companies, automotive brands, and national television productions. Each project required customized flight planning, cinematic composition, and safe execution while capturing high-quality visual content for advertising, marketing, documentation, and promotional campaigns.\n\nThe portfolio includes iconic hospitality properties, large-scale construction projects, television productions, and corporate promotional videos, requiring adaptation to different production environments and client objectives.\n\n---\n\n### Featured Projects\n\n- Coastal Village (Dehkadeh Saheli)\n- Shoniz Development Project\n- Aseman Hotel\n- Dariush Grand Hotel\n- Toranj Marine Hotel\n- Nasim-e-Ava TV Program (Nasim TV Network)\n- Twin Towers\n- Golden Tower\n- Multiple Construction Projects on Kish Island\n- Nikran Motor\n- Saba Naft\n\n---\n\n### Responsibilities\n\n- Professional drone operation and aerial cinematography\n- Flight planning based on project objectives and environmental conditions\n- Capturing cinematic aerial photography and video\n- Coordinating with production teams and project managers\n- Executing safe flights while complying with operational regulations\n- Selecting optimal lighting, weather, and shooting conditions\n- Delivering production-ready aerial footage for commercial use\n\n---\n\n### Production Workflow\n\n- Site assessment and flight planning\n- Risk evaluation and safety preparation\n- Aerial filming and photography execution\n- Multi-angle cinematic coverage\n- Coordination with on-ground production teams\n- Footage review and quality assurance\n- Delivery of high-resolution media assets\n\n---\n\n### Key Achievements\n\n- Successfully completed aerial productions across hospitality, tourism, construction, industrial, and media sectors\n- Produced promotional aerial content for some of Kish Island's most recognizable landmarks\n- Supported television and commercial productions with high-quality drone footage\n- Executed complex flights in diverse operational environments while maintaining safety and production standards\n- Delivered visually impactful content for branding, marketing, and promotional campaigns\n\n---\n\n### Key Highlight\n\nThis portfolio demonstrates extensive experience in aerial visual production across multiple industries. From luxury hospitality and tourism to industrial facilities, real estate developments, automotive companies, and national television broadcasting, each project required a combination of technical drone operation, cinematic storytelling, and professional production standards to create compelling aerial visuals tailored to each client's objectives.",
@@ -378,7 +386,6 @@
 		{ "name": "Qeshm Hoteliers Association", "logo": "./public/logos/qeshm-hoteliers.jpg" },
 		{ "name": "Iran Hoteliers Association", "logo": "./public/logos/iran-hoteliers.jpg" },
 		{ "name": "Gardoon Tourism Group", "logo": "./public/logos/gardoon.jpg" },
-		{ "name": "Yekta Protocol Services", "logo": "./public/logos/" },
 		{ "name": "3rd Millennium Tourism", "logo": "./public/logos/hezare-sevom.jpg" },
 		{ "name": "Kish Free Zone Organization", "logo": "./public/logos/kish.jpg" },
 		{ "name": "Damavand Investment Bank", "logo": "./public/logos/damavand.jpg" },
@@ -407,8 +414,6 @@
 		{ "name": "Roya Kish Residential Complex", "logo": "./public/logos/royaye-kish.jpg" },
 		{ "name": "Ghadir Financial Group", "logo": "./public/logos/ghadir.jpg" },
 		{ "name": "Alast", "logo": "./public/logos/alast.jpg" },
-		{ "name": "MAsoud Abareshi", "logo": "./public/logos/masoud-abareshi.jpg" },
-		{ "name": "Sadegh Younesipoor", "logo": "./public/logos/sadegh-younesipoor.jpg" },
 		{ "name": "Pazan", "logo": "./public/logos/pazan.jpg" },
 		{ "name": "TEDx Kish", "logo": "./public/logos/tedx.jpg" },
 		{ "name": "BluBank", "logo": "./public/logos/blubank.jpg" },
