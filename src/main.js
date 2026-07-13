@@ -280,7 +280,7 @@ async function renderConfig(lang) {
 
 // Run after DOM is loaded and initial config-en.json is processed
 document.addEventListener('DOMContentLoaded', async () => {
-	const lang = localStorage.getItem('lang') || 'en';
+	const lang = localStorage.getItem('lang') || 'fa';
 	document.getElementById('language-toggle').checked = lang === 'fa';
 
 	renderConfig(lang);

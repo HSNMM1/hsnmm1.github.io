@@ -147,10 +147,8 @@ body {
 }
 
 .hero h1 {
-	line-height: 1;
 	font-size: clamp(2.4rem, 6vw, 3.4rem);
 	font-weight: 800;
-	line-height: 1.02;
 	letter-spacing: -0.035em;
 	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
 	min-height: 1.2em;
@@ -864,6 +862,9 @@ ul li {
 	[dir='rtl'] #navbar-navs {
 		flex-direction: row-reverse;
 		direction: ltr !important;
+	}
+	[dir='rtl'] .navbar-nav {
+		direction: rtl !important;
 	}
 }
 
@@ -1940,6 +1941,8 @@ section:not(#resume) .section-title {
 	.navbar .container {
 		margin: 0 0.3rem !important;
 	}
+}
+@media screen and (max-width: 412px) {
 	.brand-word {
 		display: none !important;
 	}
