@@ -1,6 +1,6 @@
 {
-  "name": "MyResume",
-  "short_name": "MyResume",
+  "name": "HStudio",
+  "short_name": "HStudio",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
