@@ -1217,6 +1217,12 @@ input.check-toggle-round-flat:checked + label:after {
 	background-color: var(--gold-soft);
 }
 
+.portfolio-detail-img {
+	object-fit: contain;
+	object-position: center;
+	max-height: 500px;
+}
+
 .portfolio-header {
 	display: flex;
 	align-items: center;

@@ -202,12 +202,13 @@ window.addEventListener('popstate', (event) => {
 
 function renderDetail(project) {
 	const mediaContainer = document.querySelector('#project-carousel > .carousel-inner');
+	mediaContainer.innerHTML = '';
 	project.media.forEach((url, index) => {
 		const el = document.createElement('div');
 		el.classList.add('carousel-item');
 		if (index === 0) el.classList.add('active');
 
-		el.innerHTML = `<img src="${url}" class="d-block w-100" loading="lazy" alt="${project.name} Media">`;
+		el.innerHTML = `<img src="${url}" class="portfolio-detail-img d-block w-100" loading="lazy" alt="${project.name} Media">`;
 		mediaContainer.appendChild(el);
 	});
 
@@ -295,7 +296,7 @@ function buildPortfolioCard(project) {
 				itemId,
 			},
 			'',
-			`#project-${slugify(project.name)}`,
+			`#project-${slugify(project.url)}`,
 		);
 
 		showDetailView(project);
