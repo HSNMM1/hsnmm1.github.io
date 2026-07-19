@@ -73,7 +73,7 @@
 			"roles": [
 				{
 					"title": "Founder & Managing Director",
-					"date": "....... - Present",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [
 						"H Studio is a specialized event media and production company with a team size of 6 – 20 professionals, based in Kish Island.",
@@ -91,7 +91,7 @@
 			"roles": [
 				{
 					"title": "Protocol Manager",
-					"date": ".....",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [
 						"Managed VIP protocol operations, guest experience coordination, ceremonial planning, and executive hospitality services."
@@ -106,7 +106,7 @@
 			"roles": [
 				{
 					"title": "Public Relations Manager",
-					"date": ".....",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/micarad.jpg"]
@@ -145,7 +145,7 @@
 			"roles": [
 				{
 					"title": "Media Consultant & Media Manager",
-					"date": ".....",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/tourism-market.jpg"]
@@ -184,7 +184,7 @@
 			"roles": [
 				{
 					"title": "Media Partner & Content Production Executive",
-					"date": ".....",
+					"date": "",
 					"location": "Kish, Iran",
 					"description": [],
 					"media": ["./public/experiences/hezare-sevom.webp"]
@@ -207,8 +207,23 @@
 			]
 		},
 		{
+			"organization": "Book: Wandering in Kish",
+			"logo": "./public/logos/parse-zani-book.jpg",
+			"roles": [
+				{
+					"title": "Photographer",
+					"date": "2024",
+					"location": "Kish Island, Iran",
+					"description": [
+						"Produced original photography for publication in the book 'Wandering in Kish', documenting the island's landscapes, architecture, and cultural atmosphere."
+					],
+					"media": ["./public/experiences/book.jpg"]
+				}
+			]
+		},
+		{
 			"organization": "Drone Pilot",
-			"logo": "./public/logos/",
+			"logo": "./public/logos/ipac.jpg",
 			"roles": [
 				{
 					"title": "",
@@ -364,7 +379,14 @@
 			"location": "Kish Island, Iran",
 			"client": "International Dental Congress",
 			"detail": "## Project Overview\nThe 7th International Dental Congress was a specialized scientific event that brought together professors, researchers, dental specialists, and industry companies to exchange knowledge and showcase the latest advancements in dentistry. The congress featured scientific lectures, expert panels, research presentations, and a dental equipment exhibition. H Studio was responsible for the event's complete media coverage, documenting academic sessions, exhibition activities, and producing both promotional and archival media content for the organizers.\n\n---\n\n### Challenges\n- Covering multiple lecture halls and parallel scientific sessions\n- Capturing academic presentations without missing key moments\n- Managing tightly scheduled conference operations\n- Coordinating filming and editing teams under strict timelines\n- Producing content suitable for both scientific archives and promotional use\n- Maintaining high-quality media standards in a formal academic environment\n\n---\n\n### Responsibilities\n- Planning and executing comprehensive media coverage of the congress\n- Filming lectures, scientific panels, and presentations\n- Documenting the dental exhibition area\n- Producing professional photography and videography content\n- Managing photography and videography teams\n- Editing and delivering final media assets\n- Providing archival and promotional materials to the organizers\n\n---\n\n### Execution Team\n- Photography Team\n- Videography Crew\n- Editing & Post-Production Team\n- Operational Coordination Staff\n**Team Size:** 5–10 Professionals\n\n---\n\n### Key Achievements\n- Delivered complete media coverage of a major international dental congress\n- Accurately documented scientific sessions and exhibition activities\n- Produced archival media for educational and promotional purposes\n- Delivered professional media assets aligned with academic event standards\n- Successfully executed media operations within a structured scientific environment\n\n---\n\n### Key Highlight\nThe scientific nature of the congress demanded precise documentation, careful attention to educational content, and strict adherence to professional standards. Successfully capturing parallel sessions and technical presentations demonstrates H Studio's capability to manage media operations for high-level academic events in structured and time-sensitive environments.",
-			"media": ["./public/portfolio/6/1.webp", "./public/portfolio/6/2.webp"]
+			"media": [
+				"./public/portfolio/6/1.webp",
+				"./public/portfolio/6/2.webp",
+				"./public/portfolio/6/3.webp",
+				"./public/portfolio/6/4.webp",
+				"./public/portfolio/6/5.webp",
+				"./public/portfolio/6/6.webp"
+			]
 		},
 		{
 			"id": 7,
